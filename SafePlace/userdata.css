@@ -1,0 +1,214 @@
+/* #head {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+
+}
+
+#head th {
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+    border-radius: 2px;
+}
+
+#data {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse:collapse;
+    width: 80%;
+    text-align: center;
+
+}
+
+#data td {
+
+    position:relative;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid black;
+
+}
+
+
+
+.fulltab {
+    margin-left: 300px;
+    margin-top: 50px;
+} */
+.heading h1 {
+    font-size: 40px;
+    font-weight: 100px;
+    color: lightblue !important;
+    margin-top: 0px;
+    font-family: 'IM Fell Great Primer SC', serif !important;
+
+}
+
+.heading span {
+    font-size: 20px;
+    font-weight: 100px;
+    color: white !important;
+    font-family: 'Dancing Script', cursive !important;
+}
+
+.btng {
+    height: 40px;
+    width: 100px;
+    margin: 8px;
+    margin-top: 10px;
+    background-color: lightblue;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.btnpdf:hover {
+    background-color: green;
+    color: white;
+}
+
+.btnpdf {
+    height: 40px;
+    width: 150px;
+    margin: 8px;
+    margin-top: 120px;
+    margin-left: 670px;
+    background-color: rgb(244, 28, 28);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.btng:hover {
+    background-color: green;
+    color: white;
+}
+
+.tbl {
+    text-align: center;
+    margin-left: 200px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 80%;
+    background-image: linear-gradient(to left, lightpink, rgb(207, 242, 254));
+}
+
+.tbl th {
+    font-size: 25px;
+    padding: 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+
+    font-weight: bold;
+}
+
+.tbl td {
+    padding-top: 5px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.tbl tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tbl tr:hover {
+    background-color: whitesmoke;
+}
+
+
+.para1 p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: grey;
+    color: white;
+    margin-top: 120px;
+}
+
+body {
+    background-image: linear-gradient(to right, white, lightblue);
+}
+
+
+@media only screen and (max-width:768px) {
+    body {
+        background-image: linear-gradient(to left, lightblue, white);
+        background-size: 600px 550px;
+    }
+
+    .heading h1 {
+        font-size: 30px;
+        font-weight: 100px;
+        color: lightblue !important;
+        margin-top: 0px;
+        font-family: 'IM Fell Great Primer SC', serif !important;
+
+    }
+
+    .heading span {
+        font-size: 20px;
+        font-weight: 100px;
+        color: white !important;
+        font-family: 'Dancing Script', cursive !important;
+    }
+
+    .tbl {
+        margin-top: 70px;
+        text-align: center;
+        margin-left: 40px;
+        border: 2px solid black;
+        border-collapse: collapse;
+        width: 60%;
+        background-image: linear-gradient(to left, lightpink, rgb(207, 242, 254));
+    }
+
+    .tbl th {
+        font-size: 18px;
+        padding: 15px;
+        border: 2px solid black;
+        border-collapse: collapse;
+
+        font-weight: bold;
+    }
+
+    .tbl td {
+        padding-top: 5px;
+        border: 2px solid black;
+        font-size: 15px;
+    }
+
+    .btnpdf {
+        height: 40px;
+        width: 150px;
+        margin: 8px;
+        margin-top: 40px;
+        margin-left: 150px;
+        background-color: rgb(244, 28, 28);
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+
+    .para1 {
+        margin-top: 160px;
+    }
+
+    .para1 p {
+        font-size: 15px;
+    }
+
+    .para1 p {
+        font-size: 20px;
+    }
+
+}

@@ -1,0 +1,204 @@
+.heading h1 {
+    font-size: 40px;
+    font-weight: 100px;
+    color: lightblue !important;
+    margin-top: 0px;
+    font-family: 'IM Fell Great Primer SC', serif;
+
+}
+
+body {
+    background-image: linear-gradient(to right, white, lightblue);
+    margin-top: 1px;
+    width: 100%;
+    margin-left: 0px;
+}
+
+
+
+.heading span {
+    font-size: 20px;
+    font-weight: 100px;
+    color: white !important;
+    font-family: 'Dancing Script', cursive;
+}
+
+.upd {
+    border: 4px solid black;
+    width: 30%;
+    margin: 5% auto;
+    padding: 2%;
+    background-image: linear-gradient(to right, palevioletred, lightblue);
+    border-radius: 10px;
+    float: left;
+    margin-left: 150px;
+
+}
+
+.upd td {
+    font-weight: bold;
+}
+
+.del {
+    border: 4px solid black;
+    width: 30%;
+    margin: 5% auto;
+    padding: 2%;
+    background-image: linear-gradient(to right, lightblue, palevioletred);
+    border-radius: 10px;
+    float: right;
+    margin-right: 150px;
+    height: 332px !important;
+}
+
+.del td {
+    font-weight: bold;
+}
+
+.data {
+    font-size: 18px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.data:hover {
+    background-color: lightgreen;
+}
+
+.tblm td {
+    font-size: 150%;
+}
+
+.btns {
+    width: 50%;
+    margin-top: 10%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btns:hover {
+    color: white;
+    background: green;
+}
+
+.btnu {
+    margin-top: 550px;
+    text-align: center;
+    height: 40px;
+    width: 170px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: pink;
+}
+
+.btnu:hover {
+    background-color: green;
+    color: white;
+}
+
+.btnd {
+    width: 50%;
+    margin-top: 10%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btnd:hover {
+    color: white;
+    background: red;
+}
+
+.insert {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.para1 p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: grey;
+    color: white;
+    margin-top: 120px;
+}
+
+@media only screen and (max-width:768px) {
+    body {
+        background-image: linear-gradient(to left, lightblue, white);
+        background-size: 600px 550px;
+    }
+
+    .heading h1 {
+        font-size: 35px;
+        font-weight: 100px;
+        color: lightblue !important;
+        margin-top: 0px;
+        font-family: 'IM Fell Great Primer SC', serif;
+
+    }
+
+    .heading span {
+        font-size: 20px;
+        font-weight: 100px;
+        color: white !important;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .upd {
+        border: 4px solid black;
+        width: 80%;
+        background-image: linear-gradient(to right, palevioletred, lightblue);
+        border-radius: 10px;
+        margin-left: 40px;
+
+    }
+
+    .del {
+        border: 4px solid black;
+        width: 80%;
+        background-image: linear-gradient(to right, lightblue, palevioletred);
+        border-radius: 10px;
+        float: right;
+        margin-right: 25px;
+        height: 332px !important;
+    }
+
+    .btnu {
+        margin-top: 60px;
+        margin-left: 150px;
+        text-align: center;
+        height: 40px;
+        width: 170px;
+        border-radius: 5px;
+        border: 2px solid black;
+        font-weight: bold;
+        font-size: 16px;
+        background-color: pink;
+    }
+
+    .para1 {
+        margin-top: 150px;
+    }
+
+    .para1 p {
+        font-size: 15px;
+    }
+
+    .para1 p {
+        font-size: 20px;
+    }
+}

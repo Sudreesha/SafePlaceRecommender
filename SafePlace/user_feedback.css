@@ -1,0 +1,63 @@
+body {
+    background-image: linear-gradient(to left, lightblue, white);
+    background-size: 1550px 1020px;
+}
+
+.heading h1 {
+    font-size: 40px;
+    font-weight: 100px;
+    color: lightblue !important;
+    margin: 0%;
+    font-family: 'IM Fell Great Primer SC', serif;
+
+}
+
+
+
+.heading span {
+    font-size: 20px;
+    font-weight: 100px;
+    color: white !important;
+    font-family: 'Dancing Script', cursive;
+    width: 100%;
+}
+
+.para1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: grey;
+    color: white;
+    margin-top: 220px;
+}
+
+.head h1 {
+    font-size: 120px;
+    background-image: linear-gradient(#ffe8f3, #ffffff);
+    text-align: center;
+}
+
+@media only screen and (max-width:768px) {
+    body {
+        background-image: linear-gradient(to left, lightblue, white);
+        background-size: 600px 550px;
+    }
+
+    .head h1 {
+        font-size: 50px;
+        margin-top: 250px;
+
+    }
+
+    .para1 {
+        margin-top: 250px;
+    }
+
+    .para1 p {
+        font-size: 15px;
+    }
+
+    .para1 p {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,523 @@
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/empower.png");
+    background-size: 100% 630px;
+    background-repeat: no-repeat;
+
+}
+
+.heading h1 {
+    font-size: 40px;
+    font-weight: 100px;
+    color: lightblue;
+    margin-top: 0px;
+    font-family: 'IM Fell Great Primer SC', serif;
+
+}
+#aastha
+{
+  background-color:rgba(0,0,0,0.4);
+  font-size:30px;
+}
+
+
+.heading span {
+    font-size: 20px;
+    font-weight: 100px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+
+
+
+.container1 form {
+    margin-left: 190px;
+    margin-top: 200px;
+    font-weight: 200px;
+    font-size: 30px;
+
+
+}
+
+.container1 label {
+    color: darkblue;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container1 input {
+    height: 60px;
+    width: 350px;
+    margin-top: 15px;
+    border-radius: 20px;
+    border-color: palevioletred;
+}
+
+.container1 form button {
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: lightblue;
+    color: black;
+    margin-left: 85px;
+    border: 2px solid black;
+}
+
+.container1 form button:hover {
+    color: white;
+    background-color: green;
+}
+
+.container1 p {
+    margin-top: 70px;
+    font-size: 20px;
+    color: black;
+    margin-left: 70px;
+    text-shadow: 2px;
+    margin-right: 20px;
+}
+.ncw
+{
+  margin-left:3% !important;
+  margin-top:2%;
+
+}
+.sahas
+{
+  margin-left:30%;
+  margin-top:-19%;
+
+}
+.aaree{
+  margin-left:60%;
+  margin-top: -20%;
+}
+
+/* #img1 {
+    margin-top: 50px;
+    width: 500px;
+    height: 300px;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+#img2 {
+    margin-top: 50px;
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+    border-radius: 10px;
+} */
+#about p{
+    font-size: 30px !important;
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to left,lightblue,palevioletred);
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+
+
+}
+.container2 {
+    background-image: linear-gradient(to top, lightblue, white);
+    background-size: cover;
+}
+
+
+.container2 p {
+    font-size: 40px;
+    color: black;
+    font-family: 'IM Fell Great Primer SC', serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#des {
+    width: 200px;
+    margin-top: 90px;
+    margin-left: 570px;
+}
+
+#des1 {
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 530px;
+    margin-bottom: 20px;
+}
+
+#logo1 {
+    width: 200px;
+    margin-left: 90px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+#logo2 {
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+#logo3 {
+    width: 350px;
+    margin-top: 150px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.container4 {
+    background-image: url('images/w.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.para {
+    font-size: 40px;
+    padding-top: 100px;
+    text-align: center;
+    height: 500px;
+    color: white;
+    margin-right: 700px;
+    margin-left: 20px;
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+
+#float {
+    font-size: 16px;
+    color: black;
+
+}
+
+.para1 p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: grey;
+    color: white;
+    margin-top: 20px;
+}
+
+.share {
+
+    float: right;
+    text-align: right;
+    width: 150px;
+    height: 34px;
+
+}
+
+.container1 h3{
+  font-size:40px;
+  position: relative;
+  text-transform: uppercase;
+
+
+}
+
+/* css for mobile */
+
+/* @media only screen and (max-width:768px) {
+    body {
+        background-image: url("images/bg.webp");
+        background-size: 600px 550px;
+        background-repeat: no-repeat;
+        background-color: lightblue;
+    }
+
+    .heading h1 {
+        font-size: 30px;
+        font-weight: 100px;
+        color: lightblue;
+        margin-top: 0px;
+        font-family: 'IM Fell Great Primer SC', serif;
+
+    }
+
+
+
+    .heading span {
+        font-size: 20px;
+        font-weight: 100px;
+        color: white;
+        font-family: 'Dancing Script', cursive;
+    }
+
+
+
+
+} */
+@media screen and (max-width:1280px){
+  .ad{
+    font-size:18px !important;
+  }
+  body{
+    background-size:1265px 630px !important;
+  }
+  #des{
+    margin-left:530px;
+  }
+  .para1 p{
+    font-size:20px !important;
+  }
+
+
+}
+
+@media screen and (max-width:1250px){
+
+  #img1{
+    margin-left:-50px !important;
+  }
+  #img2{
+    margin-left:260px !important;
+  }
+  #pr{
+    font-size:30px !important;
+  }
+  #img1{
+    margin-left:-30px !important;
+  }
+  #img2{
+    margin-left:280px !important;
+  }
+  /* .ncw
+  {
+
+  } */
+  .sahas
+  {
+
+    margin-left:400px !important;
+    width:fit-content !important;
+    margin-top:-27% !important;
+  }
+  .aaree
+  {
+    margin-left:850px;
+    width:fit-content !important;
+    margin-top:-30% ;
+  }
+
+
+}
+@media screen and (max-width:991px){
+  .ab{
+    margin-left:300px !important;
+    font-size:20px !important;
+    margin-top:8px !important;
+  }
+  .ad{
+    font-size:14px !important;
+  }
+  .heading span{
+    font-size:14px !important;
+  }
+  .heading h1{
+    margin-left:10px !important;
+  }
+  body{
+    background-size:991px 630px !important;
+  }
+  #img1{
+    margin-top:30px !important;
+    margin-left:30px !important;
+  }
+  #img2{
+    margin-left:400px !important;
+  }
+  #des{
+    margin-left:400px !important;
+  }
+  #des1{
+    margin-left:400px !important;
+  }
+  .container3 .col-sm-4{
+    margin-left:350px !important;
+    margin-top:30px !important;
+    width:400px !important;
+  }
+  #logo2{
+    margin-left:9px !important;
+  }
+  #logo3{
+    margin-left:5px !important;
+  }
+  #pr{
+    font-size:22px !important;
+  }
+  .container4
+  {
+
+    background-size:100% ;
+
+  }
+  .container4 .para{
+    width:fit-content;
+    margin-right: 10px;
+    font-size: 2vw;
+  }
+  .container4 #pr
+  {
+    margin-top:25%;
+  }
+  .container4 #fav{
+
+    margin-top:-500px;
+    margin-left:-300px !important;
+  }
+  .container4 .para h1
+  {
+    margin-top:-180px;
+    margin-left:-200px;
+  }
+  .para1
+  {
+    margin-top:-150px !important;
+
+  }
+  #aastha
+  {
+    background-color:rgba(0,0,0,0.4);
+    font-size:20px;
+  }
+}
+@media only screen and (max-width:768px)
+{
+
+  .ad{
+    font-size:12px !important;
+    margin-top:-50px !important;
+    margin-left:500px !important;
+  }
+  .heading h1{
+    font-size:40px !important;
+    margin-left:100px !important;
+    margin-top:-40px !important;
+  }
+  .heading span{
+    margin-left:-5px !important;
+    font-size:14px !important;
+  }
+  .container1 h3{
+    font-size:20px !important;
+    margin-top:-160px !important;
+    position: relative;
+    font-size:30px !important;
+    text-transform: uppercase;
+  }
+  #des{
+    margin-left:270px !important;
+  }
+  #des1{
+    margin-left:270px !important;
+  }
+
+  .container1 input{
+    position: relative;
+    width:60%;
+    height:30%;
+    margin-left:10px !important;
+    border-radius:15px;
+  }
+
+  #submit{
+
+    margin-left:8%;
+  }
+#aastha
+{
+  background-color:rgba(0,0,0,0.4);
+  font-size:20px;
+}
+#about p {
+font-size:100% !important;
+line-height: 1.6;
+width:100% !important;
+margin-left: 0;
+}
+.cases
+{
+  background-color: rgba(255,182,193,0.7) !important;
+}
+.caseimg #img1{
+  position: static;
+
+}
+.caseimg #img2
+{
+  position: static;
+  margin-top:50px !important;
+  margin-left:5% !important;
+}
+.container2
+{
+  width:fit-content;
+}
+/* these are classes for the logo image of national commission of india etc */
+.ncw
+{
+  height:40px !important;
+  width:5%;
+  margin-bottom:70% !important;
+  /* 350px */
+  margin-left:15%!important;
+  background-image:none !important;
+  width:fit-content;
+}
+.sahas{
+  height:30px !important;
+  width:5%;
+  margin-bottom:350px !important;
+  margin-left:15% !important;
+  background-image:none !important;
+  width:fit-content;
+}
+
+.aaree{
+
+    height:30px !important;
+    width:5%;
+    margin-bottom:300px !important;
+    margin-left:15% !important;
+    background-image:none !important;
+    width:fit-content;
+
+}
+.container4
+{
+
+  background-size:100% ;
+
+}
+.container4 .para{
+  width:fit-content;
+  margin-right: 10px;
+  font-size: 2vw;
+}
+.container4 #pr
+{
+  margin-top:25%;
+}
+.container4 #fav{
+
+  margin-top:-500px;
+  margin-left:-300px !important;
+}
+.container4 .para h1
+{
+  margin-top:-180px;
+  margin-left:-200px;
+}
+.para1
+{
+  margin-top:-150px !important;
+
+}
+}
